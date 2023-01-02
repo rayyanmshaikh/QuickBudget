@@ -4,7 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Style {
-    public static Font font = new Font("Arial", Font.BOLD, 30); //Common font
+    // Common fonts
+    public static Font selection = new Font("Arial", Font.BOLD, 30);
+    public static Font text = new Font("Arial", Font.PLAIN, 15);
+//    public static Font small =
 
     /**
      * Creating a styled button
